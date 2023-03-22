@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto&display=swap');
 body{
-    background-image:linear-gradient(140deg, #5d69be 0%, #f2c5ff 50%, #c89feb 75%);
+    background-image:linear-gradient(150deg, #5d69be 10%, #f2c5ff 30%, #c89feb 15%);
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    height: 90vh;
     text-align: center;
 }
 
 h1 {
     font-family: 'Lobster Two', cursive;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 body>div{
     align-items: center;
-    background-color: black;
+    background-color: orange;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ body>div{
 .input-box {
     background-color: black;
     border-style: none;
-    color: white;
+    color: red;
     font-size: 4rem;
     margin-bottom: 20px;
     outline: none;
